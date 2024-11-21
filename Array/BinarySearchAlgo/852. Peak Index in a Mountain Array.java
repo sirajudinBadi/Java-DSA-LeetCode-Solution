@@ -4,23 +4,18 @@
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-
-        //created the start and end point of algorithm
         int start = 0;
         int end = arr.length - 1;
 
-        while (start <= end){
-            int middle = start + (end - start) / 2; //To get the middle element in the array
+        while (start < end){
+            int middle = start + (end - start) / 2;
 
-            //To check if the middle is greater than adjaacent elements and if so then return the middle which will be the peak
-            if (arr[middle] > arr[middle + 1] && arr[middle] > arr[middle - 1]){ 
-                return middle;
-            }else if(arr[middle] < arr[middle + 1]){ //If middle was not the peak then shift the start ahead 
-                start = middle + 1;
-            }else{ //if middle was on the right side of max then shift backward the end.
-                end = middle - 1;
-            }
+            if(arr[middle] > arr[middle + 1]){  //We are inside the increasing part of the array
+                end = middle; //To shrink the end of an array backwards
+            }else{  //We are inside the decreasing part of the array
+                start = middle + 1; //To shrink the start of the array towards the end(forward)
+            } 
         }
-        return end;
+        return start; //We can return end as well bcz at the end start and end both are same.
     }
 }
