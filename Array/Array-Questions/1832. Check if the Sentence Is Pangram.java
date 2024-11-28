@@ -1,8 +1,8 @@
 //👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉https://x.com/Sirajudin79👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
 //👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉https://www.linkedin.com/in/sirajudinbadi79/👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
 
-Follow Me on [Twitter](https://x.com/Sirajudin79)
-Follow Me on [LinkedIn](https://www.linkedin.com/in/sirajudinbadi79/)
+// Follow Me on [Twitter](https://x.com/Sirajudin79)
+// Follow Me on [LinkedIn](https://www.linkedin.com/in/sirajudinbadi79/)
 
 
 class Solution {
